@@ -1,0 +1,50 @@
+[
+  {
+    "Namespace": "AWS/ElastiCache",
+    "MetricName": "DatabaseMemoryUsageCountedForEvictPercentage",
+    "Dimensions": [
+      {
+        "Name": "NodeGroupId",
+        "Value": "0001"
+      },
+      {
+        "Name": "ReplicationGroupId",
+        "Value": "sca-ctf-prod-redis"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ElastiCache",
+    "MetricName": "DatabaseCapacityUsageCountedForEvictPercentage",
+    "Dimensions": [
+      {
+        "Name": "NodeGroupId",
+        "Value": "0001"
+      },
+      {
+        "Name": "ReplicationGroupId",
+        "Value": "sca-ctf-prod-redis"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ElastiCache",
+    "MetricName": "DatabaseCapacityUsageCountedForEvictPercentage",
+    "Dimensions": [
+      {
+        "Name": "ReplicationGroupId",
+        "Value": "sca-ctf-prod-redis"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ElastiCache",
+    "MetricName": "DatabaseMemoryUsageCountedForEvictPercentage",
+    "Dimensions": [
+      {
+        "Name": "ReplicationGroupId",
+        "Value": "sca-ctf-prod-redis"
+      }
+    ]
+  }
+]

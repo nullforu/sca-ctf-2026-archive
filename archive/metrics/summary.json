@@ -1,0 +1,57 @@
+[
+  {
+    "namespace": "AWS/RDS",
+    "name": "rds",
+    "metrics": 28
+  },
+  {
+    "namespace": "AWS/ElastiCache",
+    "name": "elasticache-repl",
+    "metrics": 4
+  },
+  {
+    "namespace": "AWS/NATGateway",
+    "name": "natgateway",
+    "metrics": 16
+  },
+  {
+    "namespace": "AWS/EC2",
+    "name": "ec2-bastion",
+    "metrics": 22
+  },
+  {
+    "namespace": "AWS/ECS",
+    "name": "ecs-cluster",
+    "metrics": 6
+  },
+  {
+    "namespace": "AWS/ECS",
+    "name": "ecs-service-backend",
+    "metrics": 3
+  },
+  {
+    "namespace": "AWS/ECS",
+    "name": "ecs-service-invite-bot",
+    "metrics": 3
+  },
+  {
+    "namespace": "ECS/ContainerInsights",
+    "name": "containerinsights-cluster",
+    "metrics": 63
+  },
+  {
+    "namespace": "ECS/ContainerInsights",
+    "name": "containerinsights-backend",
+    "metrics": 15
+  },
+  {
+    "namespace": "ECS/ContainerInsights",
+    "name": "containerinsights-invite-bot",
+    "metrics": 15
+  },
+  {
+    "namespace": "AWS/ApplicationELB",
+    "name": "alb",
+    "metrics": 97
+  }
+]

@@ -1,0 +1,536 @@
+{
+  "SecurityGroups": [
+    {
+      "GroupId": "sg-0532128930b4aff20",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-ssm-endpoints"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-0532128930b4aff20",
+      "OwnerId": "769953010889",
+      "GroupName": "sca-ctf-prod-ssm-endpoints",
+      "Description": "SSM VPC endpoints security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 443,
+          "ToPort": 443,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "10.***.***.0/16"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-048ee6278f145e1aa",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-invite-bot"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-048ee6278f145e1aa",
+      "OwnerId": "769953010889",
+      "GroupName": "sca-ctf-prod-invite-bot",
+      "Description": "Invite bot ECS service security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 8083,
+          "ToPort": 8083,
+          "UserIdGroupPairs": [
+            {
+              "Description": "Internal API from backend",
+              "UserId": "769953010889",
+              "GroupId": "sg-03bac39ed229c7efe"
+            }
+          ],
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-0d8185d9e87646fb9",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-alb"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-0d8185d9e87646fb9",
+      "OwnerId": "769953010889",
+      "GroupName": "sca-ctf-prod-alb",
+      "Description": "ALB security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 80,
+          "ToPort": 80,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        },
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 443,
+          "ToPort": 443,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-0548504fb77b231c4",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-redis"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-0548504fb77b231c4",
+      "OwnerId": "769953010889",
+      "GroupName": "sca-ctf-prod-redis",
+      "Description": "ElastiCache Redis security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 6379,
+          "ToPort": 6379,
+          "UserIdGroupPairs": [
+            {
+              "Description": "Backend ECS service to ElastiCache Redis",
+              "UserId": "769953010889",
+              "GroupId": "sg-03bac39ed229c7efe"
+            }
+          ],
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-067f720244a63137f",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-bastion"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-067f720244a63137f",
+      "OwnerId": "769953010889",
+      "GroupName": "sca-ctf-prod-bastion",
+      "Description": "SSM-only bastion host security group",
+      "IpPermissions": []
+    },
+    {
+      "GroupId": "sg-0b032faf9af5236e7",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-0b032faf9af5236e7",
+      "OwnerId": "769953010889",
+      "GroupName": "default",
+      "Description": "default VPC security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [
+            {
+              "UserId": "769953010889",
+              "GroupId": "sg-0b032faf9af5236e7"
+            }
+          ],
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-0a412a65ac9ae2ed5",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "ManagedBy",
+          "Value": "sbxadm"
+        },
+        {
+          "Key": "Name",
+          "Value": "sbxcluster-smctf-cluster-orch-sg"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-0a412a65ac9ae2ed5",
+      "OwnerId": "769953010889",
+      "GroupName": "sbxcluster-smctf-cluster-orch-sg",
+      "Description": "sbxadm control plane SG for cluster smctf-cluster",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 8082,
+          "ToPort": 8082,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "Description": "sbxorch api (sbxctl/sbxadm)",
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-03bac39ed229c7efe",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-backend"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-03bac39ed229c7efe",
+      "OwnerId": "769953010889",
+      "GroupName": "sca-ctf-prod-backend",
+      "Description": "Backend ECS service security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 8080,
+          "ToPort": 8080,
+          "UserIdGroupPairs": [
+            {
+              "UserId": "769953010889",
+              "GroupId": "sg-0d8185d9e87646fb9"
+            }
+          ],
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-0eaf67556f1e28cc5",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "sbxcluster-smctf-cluster-worker-sg"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "sbxadm"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-0eaf67556f1e28cc5",
+      "OwnerId": "769953010889",
+      "GroupName": "sbxcluster-smctf-cluster-worker-sg",
+      "Description": "sbxadm worker node SG for cluster smctf-cluster",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 10000,
+          "ToPort": 32767,
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "Description": "sandbox workload public ports",
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        },
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 8081,
+          "ToPort": 8081,
+          "UserIdGroupPairs": [
+            {
+              "Description": "sbxlet api from control plane",
+              "UserId": "769953010889",
+              "GroupId": "sg-0a412a65ac9ae2ed5"
+            }
+          ],
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-0dfc4f090571c4a60",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "UserIdGroupPairs": [],
+          "IpRanges": [
+            {
+              "CidrIp": "0.***.***.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-rds"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "SecurityGroupArn": "arn:aws:ec2:ap-northeast-2:769953010889:security-group/sg-0dfc4f090571c4a60",
+      "OwnerId": "769953010889",
+      "GroupName": "sca-ctf-prod-rds",
+      "Description": "RDS security group",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 5432,
+          "ToPort": 5432,
+          "UserIdGroupPairs": [
+            {
+              "Description": "Backend ECS service to RDS",
+              "UserId": "769953010889",
+              "GroupId": "sg-03bac39ed229c7efe"
+            },
+            {
+              "UserId": "769953010889",
+              "GroupId": "sg-067f720244a63137f"
+            }
+          ],
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": []
+        }
+      ]
+    }
+  ]
+}

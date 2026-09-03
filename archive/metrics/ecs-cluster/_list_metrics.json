@@ -1,0 +1,86 @@
+[
+  {
+    "Namespace": "AWS/ECS",
+    "MetricName": "LiveTaskCount",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ECS",
+    "MetricName": "LiveTaskCount",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "backend"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ECS",
+    "MetricName": "MemoryUtilization",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "backend"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ECS",
+    "MetricName": "CPUUtilization",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "backend"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ECS",
+    "MetricName": "MemoryUtilization",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ECS",
+    "MetricName": "CPUUtilization",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  }
+]

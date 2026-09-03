@@ -1,0 +1,6 @@
+{
+  "serviceArns": [
+    "arn:aws:ecs:ap-northeast-2:769953010889:service/sca-ctf-prod-backend/backend",
+    "arn:aws:ecs:ap-northeast-2:769953010889:service/sca-ctf-prod-backend/invite-bot"
+  ]
+}

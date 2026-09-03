@@ -1,0 +1,1408 @@
+[
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "MitigatedHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "AnomalousHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "MitigatedHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnHealthyHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "AnomalousHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnHealthyHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyRoutingRequestCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyRoutingRequestCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyRoutingRequestCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyRoutingRequestCount",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyStateDNS",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyStateRouting",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyStateDNS",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyStateRouting",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyStateDNS",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyStateDNS",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyStateDNS",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyStateRouting",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnhealthyStateRouting",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyStateDNS",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyStateRouting",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyStateRouting",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ConsumedLCUs",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "AnomalousHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCountPerTarget",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "MitigatedHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HealthyHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "UnHealthyHostCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTP_Redirect_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTP_Redirect_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCount",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCount",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCountPerTarget",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "RequestCountPerTarget",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "PeakLCUs",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "TargetResponseTime",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_2XX_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ClientTLSNegotiationErrorCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ProcessedBytes",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_2XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "TargetResponseTime",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "TargetResponseTime",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_2XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "NewConnectionCount",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ActiveConnectionCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ProcessedBytes",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_2XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ActiveConnectionCount",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "NewConnectionCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "TargetResponseTime",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ClientTLSNegotiationErrorCount",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "TargetResponseTime",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_2XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "TargetResponseTime",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ProcessedBytes",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ActiveConnectionCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_2XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "NewConnectionCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_504_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_504_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_5XX_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_5XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "ClientTLSNegotiationErrorCount",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "DesyncMitigationMode_NonCompliant_Request_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "DesyncMitigationMode_NonCompliant_Request_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTP_Redirect_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_3XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_ELB_4XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "DesyncMitigationMode_NonCompliant_Request_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_5XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_5XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_5XX_Count",
+    "Dimensions": [
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2c"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_5XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "AvailabilityZone",
+        "Value": "ap-northeast-2a"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_5XX_Count",
+    "Dimensions": [
+      {
+        "Name": "TargetGroup",
+        "Value": "targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037"
+      },
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/ApplicationELB",
+    "MetricName": "HTTPCode_Target_5XX_Count",
+    "Dimensions": [
+      {
+        "Name": "LoadBalancer",
+        "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      }
+    ]
+  }
+]

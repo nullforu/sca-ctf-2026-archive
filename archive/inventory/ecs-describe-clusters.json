@@ -1,0 +1,103 @@
+{
+  "clusters": [
+    {
+      "clusterArn": "arn:aws:ecs:ap-northeast-2:769953010889:cluster/sca-ctf-prod-backend",
+      "clusterName": "sca-ctf-prod-backend",
+      "status": "ACTIVE",
+      "registeredContainerInstancesCount": 0,
+      "runningTasksCount": 3,
+      "pendingTasksCount": 0,
+      "activeServicesCount": 2,
+      "statistics": [
+        {
+          "name": "runningEC2TasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningFargateTasksCount",
+          "value": "3"
+        },
+        {
+          "name": "pendingEC2TasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingFargateTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningExternalTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingExternalTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningManagedInstancesTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingManagedInstancesTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "activeEC2ServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeFargateServiceCount",
+          "value": "2"
+        },
+        {
+          "name": "drainingEC2ServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingFargateServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeExternalServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingExternalServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeManagedInstancesServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingManagedInstancesServiceCount",
+          "value": "0"
+        }
+      ],
+      "tags": [
+        {
+          "key": "Project",
+          "value": "sca-ctf"
+        },
+        {
+          "key": "Environment",
+          "value": "prod"
+        },
+        {
+          "key": "ManagedBy",
+          "value": "terraform"
+        }
+      ],
+      "settings": [
+        {
+          "name": "containerInsights",
+          "value": "enabled"
+        }
+      ],
+      "capacityProviders": [],
+      "defaultCapacityProviderStrategy": [],
+      "attachments": []
+    }
+  ],
+  "failures": []
+}

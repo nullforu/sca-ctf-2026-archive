@@ -1,0 +1,212 @@
+[
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "DesiredTaskCount",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "PendingTaskCount",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "TaskSetCount",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "DeploymentCount",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "RunningTaskCount",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "MemoryUtilized",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "NetworkTxBytes",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "CpuReserved",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "StorageWriteBytes",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "MemoryReserved",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "EphemeralStorageReserved",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "StorageReadBytes",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "NetworkRxBytes",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "CpuUtilized",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  },
+  {
+    "Namespace": "ECS/ContainerInsights",
+    "MetricName": "EphemeralStorageUtilized",
+    "Dimensions": [
+      {
+        "Name": "ServiceName",
+        "Value": "invite-bot"
+      },
+      {
+        "Name": "ClusterName",
+        "Value": "sca-ctf-prod-backend"
+      }
+    ]
+  }
+]

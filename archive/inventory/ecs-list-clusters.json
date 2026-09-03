@@ -1,0 +1,5 @@
+{
+  "clusterArns": [
+    "arn:aws:ecs:ap-northeast-2:769953010889:cluster/sca-ctf-prod-backend"
+  ]
+}

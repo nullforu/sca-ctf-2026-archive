@@ -1,0 +1,162 @@
+[
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "PacketsInFromDestination",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "PacketsDropCount",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "PeakPacketsPerSecond",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "BytesInFromSource",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "BytesOutToDestination",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "PacketsOutToSource",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "PacketsInFromSource",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "BytesOutToSource",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "PeakBytesPerSecond",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "BytesInFromDestination",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "PacketsOutToDestination",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "ErrorPortAllocation",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "ConnectionEstablishedCount",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "ActiveConnectionCount",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "ConnectionAttemptCount",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  },
+  {
+    "Namespace": "AWS/NATGateway",
+    "MetricName": "IdleTimeoutCount",
+    "Dimensions": [
+      {
+        "Name": "NatGatewayId",
+        "Value": "nat-05ff2c4395449f5ba"
+      }
+    ]
+  }
+]

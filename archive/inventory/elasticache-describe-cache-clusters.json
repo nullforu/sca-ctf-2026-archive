@@ -1,0 +1,110 @@
+{
+  "CacheClusters": [
+    {
+      "CacheClusterId": "sca-ctf-prod-redis-001",
+      "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+      "CacheNodeType": "cache.t3.micro",
+      "Engine": "redis",
+      "EngineVersion": "7.1.0",
+      "CacheClusterStatus": "available",
+      "NumCacheNodes": 1,
+      "PreferredAvailabilityZone": "ap-northeast-2c",
+      "CacheClusterCreateTime": "2026-07-18T01:56:29.116000+00:00",
+      "PreferredMaintenanceWindow": "sat:09:30-sat:10:30",
+      "PendingModifiedValues": {
+        "CacheNodeType": "cache.t4g.medium"
+      },
+      "CacheSecurityGroups": [],
+      "CacheParameterGroup": {
+        "CacheParameterGroupName": "default.redis7",
+        "ParameterApplyStatus": "in-sync",
+        "CacheNodeIdsToReboot": []
+      },
+      "CacheSubnetGroupName": "sca-ctf-prod-redis-subnet-vpc-0da2",
+      "CacheNodes": [
+        {
+          "CacheNodeId": "0001",
+          "CacheNodeStatus": "available",
+          "CacheNodeCreateTime": "2026-07-18T01:56:29.116000+00:00",
+          "Endpoint": {
+            "Address": "sca-ctf-prod-redis-001.qfoigp.0001.apn2.cache.amazonaws.com",
+            "Port": 6379
+          },
+          "ParameterGroupStatus": "in-sync",
+          "CustomerAvailabilityZone": "ap-northeast-2c"
+        }
+      ],
+      "AutoMinorVersionUpgrade": true,
+      "SecurityGroups": [
+        {
+          "SecurityGroupId": "sg-0548504fb77b231c4",
+          "Status": "active"
+        }
+      ],
+      "ReplicationGroupId": "sca-ctf-prod-redis",
+      "SnapshotRetentionLimit": 0,
+      "SnapshotWindow": "01:00-02:00",
+      "AuthTokenEnabled": false,
+      "TransitEncryptionEnabled": false,
+      "AtRestEncryptionEnabled": false,
+      "ARN": "arn:aws:elasticache:ap-northeast-2:769953010889:cluster:sca-ctf-prod-redis-001",
+      "ReplicationGroupLogDeliveryEnabled": false,
+      "LogDeliveryConfigurations": [],
+      "NetworkType": "ipv4",
+      "IpDiscovery": "ipv4"
+    },
+    {
+      "CacheClusterId": "sca-ctf-prod-redis-002",
+      "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+      "CacheNodeType": "cache.t3.micro",
+      "Engine": "redis",
+      "EngineVersion": "7.1.0",
+      "CacheClusterStatus": "available",
+      "NumCacheNodes": 1,
+      "PreferredAvailabilityZone": "ap-northeast-2a",
+      "CacheClusterCreateTime": "2026-07-18T01:56:29.116000+00:00",
+      "PreferredMaintenanceWindow": "sat:09:30-sat:10:30",
+      "PendingModifiedValues": {
+        "CacheNodeType": "cache.t4g.medium"
+      },
+      "CacheSecurityGroups": [],
+      "CacheParameterGroup": {
+        "CacheParameterGroupName": "default.redis7",
+        "ParameterApplyStatus": "in-sync",
+        "CacheNodeIdsToReboot": []
+      },
+      "CacheSubnetGroupName": "sca-ctf-prod-redis-subnet-vpc-0da2",
+      "CacheNodes": [
+        {
+          "CacheNodeId": "0001",
+          "CacheNodeStatus": "available",
+          "CacheNodeCreateTime": "2026-07-18T01:56:29.116000+00:00",
+          "Endpoint": {
+            "Address": "sca-ctf-prod-redis-002.qfoigp.0001.apn2.cache.amazonaws.com",
+            "Port": 6379
+          },
+          "ParameterGroupStatus": "in-sync",
+          "CustomerAvailabilityZone": "ap-northeast-2a"
+        }
+      ],
+      "AutoMinorVersionUpgrade": true,
+      "SecurityGroups": [
+        {
+          "SecurityGroupId": "sg-0548504fb77b231c4",
+          "Status": "active"
+        }
+      ],
+      "ReplicationGroupId": "sca-ctf-prod-redis",
+      "SnapshotRetentionLimit": 0,
+      "SnapshotWindow": "01:00-02:00",
+      "AuthTokenEnabled": false,
+      "TransitEncryptionEnabled": false,
+      "AtRestEncryptionEnabled": false,
+      "ARN": "arn:aws:elasticache:ap-northeast-2:769953010889:cluster:sca-ctf-prod-redis-002",
+      "ReplicationGroupLogDeliveryEnabled": false,
+      "LogDeliveryConfigurations": [],
+      "NetworkType": "ipv4",
+      "IpDiscovery": "ipv4"
+    }
+  ]
+}

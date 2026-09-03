@@ -1,0 +1,1165 @@
+{
+  "Namespace": "AWS/EC2",
+  "MetricName": "NetworkPacketsOut",
+  "Dimensions": [
+    {
+      "Name": "InstanceId",
+      "Value": "i-0ec0b62eb0979b6b8"
+    }
+  ],
+  "Period": 900,
+  "Datapoints": [
+    {
+      "Timestamp": "2026-07-18 10:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 20.733333333333334,
+      "Sum": 311.0,
+      "Minimum": 5.0,
+      "Maximum": 86.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 11:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 11.866666666666667,
+      "Sum": 178.0,
+      "Minimum": 5.0,
+      "Maximum": 38.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 11:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 14.8,
+      "Sum": 222.0,
+      "Minimum": 5.0,
+      "Maximum": 40.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 11:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 11.2,
+      "Sum": 168.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 11:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.266666666666667,
+      "Sum": 199.0,
+      "Minimum": 5.0,
+      "Maximum": 38.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 12:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 11.0,
+      "Sum": 165.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 12:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.666666666666666,
+      "Sum": 190.0,
+      "Minimum": 5.0,
+      "Maximum": 34.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 12:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.933333333333334,
+      "Sum": 164.0,
+      "Minimum": 5.0,
+      "Maximum": 37.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 12:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.0,
+      "Sum": 195.0,
+      "Minimum": 5.0,
+      "Maximum": 38.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 13:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 39.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 13:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.266666666666667,
+      "Sum": 199.0,
+      "Minimum": 5.0,
+      "Maximum": 40.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 13:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 13:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 40.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 14:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.933333333333334,
+      "Sum": 164.0,
+      "Minimum": 5.0,
+      "Maximum": 26.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 14:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.2,
+      "Sum": 198.0,
+      "Minimum": 5.0,
+      "Maximum": 41.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 14:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.466666666666667,
+      "Sum": 157.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 14:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.0,
+      "Sum": 195.0,
+      "Minimum": 5.0,
+      "Maximum": 38.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 15:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 15:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 15.466666666666667,
+      "Sum": 232.0,
+      "Minimum": 5.0,
+      "Maximum": 39.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 15:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.6,
+      "Sum": 159.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 15:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.066666666666666,
+      "Sum": 196.0,
+      "Minimum": 5.0,
+      "Maximum": 40.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 16:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.6,
+      "Sum": 159.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 16:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 16:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.8,
+      "Sum": 162.0,
+      "Minimum": 5.0,
+      "Maximum": 38.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 16:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.2,
+      "Sum": 198.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 17:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.533333333333333,
+      "Sum": 158.0,
+      "Minimum": 5.0,
+      "Maximum": 34.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 17:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.733333333333333,
+      "Sum": 191.0,
+      "Minimum": 5.0,
+      "Maximum": 30.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 17:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 25.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 17:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.133333333333333,
+      "Sum": 197.0,
+      "Minimum": 5.0,
+      "Maximum": 39.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 18:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.2,
+      "Sum": 198.0,
+      "Minimum": 5.0,
+      "Maximum": 41.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 18:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 33.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 18:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.866666666666667,
+      "Sum": 163.0,
+      "Minimum": 5.0,
+      "Maximum": 28.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 18:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.266666666666667,
+      "Sum": 199.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 19:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.933333333333334,
+      "Sum": 164.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 19:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 39.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 19:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.6,
+      "Sum": 159.0,
+      "Minimum": 5.0,
+      "Maximum": 37.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 19:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.733333333333333,
+      "Sum": 191.0,
+      "Minimum": 5.0,
+      "Maximum": 34.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 20:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 119.86666666666666,
+      "Sum": 1798.0,
+      "Minimum": 5.0,
+      "Maximum": 600.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 20:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 19.133333333333333,
+      "Sum": 287.0,
+      "Minimum": 10.0,
+      "Maximum": 40.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 20:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.4,
+      "Sum": 201.0,
+      "Minimum": 5.0,
+      "Maximum": 54.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 20:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 15.333333333333334,
+      "Sum": 230.0,
+      "Minimum": 5.0,
+      "Maximum": 39.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 21:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.933333333333334,
+      "Sum": 164.0,
+      "Minimum": 5.0,
+      "Maximum": 26.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 21:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.533333333333333,
+      "Sum": 203.0,
+      "Minimum": 5.0,
+      "Maximum": 38.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 21:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 25.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 21:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.4,
+      "Sum": 201.0,
+      "Minimum": 5.0,
+      "Maximum": 44.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 22:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.533333333333333,
+      "Sum": 158.0,
+      "Minimum": 5.0,
+      "Maximum": 25.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 22:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 90.26666666666667,
+      "Sum": 1354.0,
+      "Minimum": 10.0,
+      "Maximum": 750.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 22:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 15.733333333333333,
+      "Sum": 236.0,
+      "Minimum": 5.0,
+      "Maximum": 41.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 22:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.466666666666667,
+      "Sum": 187.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 23:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 23.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 23:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.6,
+      "Sum": 189.0,
+      "Minimum": 5.0,
+      "Maximum": 31.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 23:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.066666666666666,
+      "Sum": 196.0,
+      "Minimum": 5.0,
+      "Maximum": 55.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 23:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.0,
+      "Sum": 195.0,
+      "Minimum": 5.0,
+      "Maximum": 32.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 00:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.866666666666667,
+      "Sum": 163.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 00:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 32.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 00:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 37.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 00:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.133333333333333,
+      "Sum": 197.0,
+      "Minimum": 5.0,
+      "Maximum": 37.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 01:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 01:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 41.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 01:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 56.333333333333336,
+      "Sum": 845.0,
+      "Minimum": 8.0,
+      "Maximum": 225.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 01:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 19.0,
+      "Sum": 285.0,
+      "Minimum": 10.0,
+      "Maximum": 41.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 02:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 38.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 02:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 02:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.866666666666667,
+      "Sum": 163.0,
+      "Minimum": 5.0,
+      "Maximum": 34.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 02:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 39.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 03:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.866666666666667,
+      "Sum": 163.0,
+      "Minimum": 5.0,
+      "Maximum": 26.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 03:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.733333333333333,
+      "Sum": 191.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 03:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.8,
+      "Sum": 162.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 03:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.0,
+      "Sum": 195.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 04:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.333333333333334,
+      "Sum": 200.0,
+      "Minimum": 5.0,
+      "Maximum": 55.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 04:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 30.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 04:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.6,
+      "Sum": 159.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 04:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.0,
+      "Sum": 195.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 05:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.4,
+      "Sum": 156.0,
+      "Minimum": 5.0,
+      "Maximum": 25.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 05:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 18.933333333333334,
+      "Sum": 284.0,
+      "Minimum": 5.0,
+      "Maximum": 99.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 05:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 05:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 50.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 06:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.666666666666666,
+      "Sum": 160.0,
+      "Minimum": 5.0,
+      "Maximum": 38.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 06:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.8,
+      "Sum": 192.0,
+      "Minimum": 5.0,
+      "Maximum": 48.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 06:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.866666666666667,
+      "Sum": 163.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 06:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 15.333333333333334,
+      "Sum": 230.0,
+      "Minimum": 5.0,
+      "Maximum": 44.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 07:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.6,
+      "Sum": 159.0,
+      "Minimum": 5.0,
+      "Maximum": 24.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 07:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 50.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 07:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.666666666666666,
+      "Sum": 160.0,
+      "Minimum": 5.0,
+      "Maximum": 32.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 07:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 46.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 08:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.866666666666667,
+      "Sum": 163.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 08:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 47.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 08:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.8,
+      "Sum": 162.0,
+      "Minimum": 5.0,
+      "Maximum": 34.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 08:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.133333333333333,
+      "Sum": 197.0,
+      "Minimum": 5.0,
+      "Maximum": 49.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 09:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 57.266666666666666,
+      "Sum": 859.0,
+      "Minimum": 9.0,
+      "Maximum": 464.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 09:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 18.0,
+      "Sum": 270.0,
+      "Minimum": 5.0,
+      "Maximum": 41.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 09:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.266666666666667,
+      "Sum": 199.0,
+      "Minimum": 5.0,
+      "Maximum": 39.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 09:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.133333333333333,
+      "Sum": 197.0,
+      "Minimum": 5.0,
+      "Maximum": 37.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 10:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 10:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.933333333333334,
+      "Sum": 194.0,
+      "Minimum": 5.0,
+      "Maximum": 48.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 10:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.6,
+      "Sum": 159.0,
+      "Minimum": 5.0,
+      "Maximum": 34.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 10:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 48.0,
+      "Sum": 720.0,
+      "Minimum": 5.0,
+      "Maximum": 299.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 11:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 16.8,
+      "Sum": 252.0,
+      "Minimum": 10.0,
+      "Maximum": 45.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 11:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 15.733333333333333,
+      "Sum": 236.0,
+      "Minimum": 5.0,
+      "Maximum": 84.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 11:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.666666666666666,
+      "Sum": 160.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 11:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 15.733333333333333,
+      "Sum": 236.0,
+      "Minimum": 5.0,
+      "Maximum": 51.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 12:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.466666666666667,
+      "Sum": 157.0,
+      "Minimum": 5.0,
+      "Maximum": 31.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 12:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.066666666666666,
+      "Sum": 196.0,
+      "Minimum": 5.0,
+      "Maximum": 50.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 12:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.8,
+      "Sum": 162.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 12:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.466666666666667,
+      "Sum": 202.0,
+      "Minimum": 5.0,
+      "Maximum": 52.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 13:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.533333333333333,
+      "Sum": 158.0,
+      "Minimum": 5.0,
+      "Maximum": 35.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 13:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.066666666666666,
+      "Sum": 196.0,
+      "Minimum": 5.0,
+      "Maximum": 37.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 13:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.866666666666667,
+      "Sum": 163.0,
+      "Minimum": 5.0,
+      "Maximum": 34.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 13:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.066666666666666,
+      "Sum": 196.0,
+      "Minimum": 5.0,
+      "Maximum": 49.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 14:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.466666666666667,
+      "Sum": 202.0,
+      "Minimum": 5.0,
+      "Maximum": 44.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 14:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.266666666666667,
+      "Sum": 199.0,
+      "Minimum": 5.0,
+      "Maximum": 52.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 14:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 11.2,
+      "Sum": 168.0,
+      "Minimum": 5.0,
+      "Maximum": 28.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 14:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.466666666666667,
+      "Sum": 187.0,
+      "Minimum": 5.0,
+      "Maximum": 47.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 15:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 11.133333333333333,
+      "Sum": 167.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 15:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.333333333333334,
+      "Sum": 200.0,
+      "Minimum": 5.0,
+      "Maximum": 51.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 15:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.733333333333333,
+      "Sum": 161.0,
+      "Minimum": 5.0,
+      "Maximum": 26.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 15:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.4,
+      "Sum": 201.0,
+      "Minimum": 5.0,
+      "Maximum": 52.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 16:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.8,
+      "Sum": 162.0,
+      "Minimum": 5.0,
+      "Maximum": 33.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 16:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.733333333333333,
+      "Sum": 191.0,
+      "Minimum": 5.0,
+      "Maximum": 47.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 16:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.6,
+      "Sum": 159.0,
+      "Minimum": 5.0,
+      "Maximum": 33.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 16:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 15.4,
+      "Sum": 231.0,
+      "Minimum": 5.0,
+      "Maximum": 51.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 17:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.666666666666666,
+      "Sum": 160.0,
+      "Minimum": 5.0,
+      "Maximum": 33.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 17:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 49.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 17:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.8,
+      "Sum": 162.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 17:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.866666666666667,
+      "Sum": 193.0,
+      "Minimum": 5.0,
+      "Maximum": 45.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 18:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.8,
+      "Sum": 162.0,
+      "Minimum": 5.0,
+      "Maximum": 36.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 18:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.4,
+      "Sum": 201.0,
+      "Minimum": 5.0,
+      "Maximum": 52.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 18:31:00+09:00",
+      "SampleCount": 12.0,
+      "Average": 183.16666666666666,
+      "Sum": 2198.0,
+      "Minimum": 5.0,
+      "Maximum": 1207.0,
+      "Unit": "Count"
+    }
+  ]
+}

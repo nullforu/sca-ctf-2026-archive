@@ -1,0 +1,209 @@
+{
+  "RouteTables": [
+    {
+      "Associations": [
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-0e9996ffc79b6bb52",
+          "RouteTableId": "rtb-0428fb19f9051f07e",
+          "SubnetId": "subnet-01900e8e7fd74a62a",
+          "AssociationState": {
+            "State": "associated"
+          }
+        },
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-0cce5f31ddb00e15e",
+          "RouteTableId": "rtb-0428fb19f9051f07e",
+          "SubnetId": "subnet-07b49e206692d3bad",
+          "AssociationState": {
+            "State": "associated"
+          }
+        }
+      ],
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-0428fb19f9051f07e",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "10.***.***.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        },
+        {
+          "DestinationCidrBlock": "0.***.***.0/0",
+          "GatewayId": "igw-0312d9e96afdbdb74",
+          "Origin": "CreateRoute",
+          "State": "active"
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-public-rt"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "OwnerId": "769953010889"
+    },
+    {
+      "Associations": [
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-088f4e7468fac5b66",
+          "RouteTableId": "rtb-0ba775b945f689097",
+          "SubnetId": "subnet-0c1ddf930752d74be",
+          "AssociationState": {
+            "State": "associated"
+          }
+        },
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-037b0e9f50f1e0f73",
+          "RouteTableId": "rtb-0ba775b945f689097",
+          "SubnetId": "subnet-09aa5b7d15c7b0aac",
+          "AssociationState": {
+            "State": "associated"
+          }
+        }
+      ],
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-0ba775b945f689097",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "10.***.***.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        },
+        {
+          "DestinationCidrBlock": "0.***.***.0/0",
+          "NatGatewayId": "nat-05ff2c4395449f5ba",
+          "Origin": "CreateRoute",
+          "State": "active"
+        },
+        {
+          "DestinationPrefixListId": "pl-78a54011",
+          "GatewayId": "vpce-0bcdf5a4fd62b72a8",
+          "Origin": "CreateRoute",
+          "State": "active"
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-private-rt-single"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "OwnerId": "769953010889"
+    },
+    {
+      "Associations": [
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-0277e238e55b2aabb",
+          "RouteTableId": "rtb-09888cb828758ba4d",
+          "SubnetId": "subnet-0c65c9953f7fefc89",
+          "AssociationState": {
+            "State": "associated"
+          }
+        },
+        {
+          "Main": false,
+          "RouteTableAssociationId": "rtbassoc-04a2c336e12718dbf",
+          "RouteTableId": "rtb-09888cb828758ba4d",
+          "SubnetId": "subnet-04efa9b7625c55309",
+          "AssociationState": {
+            "State": "associated"
+          }
+        }
+      ],
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-09888cb828758ba4d",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "10.***.***.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        },
+        {
+          "DestinationPrefixListId": "pl-78a54011",
+          "GatewayId": "vpce-0bcdf5a4fd62b72a8",
+          "Origin": "CreateRoute",
+          "State": "active"
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-protected-rt"
+        }
+      ],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "OwnerId": "769953010889"
+    },
+    {
+      "Associations": [
+        {
+          "Main": true,
+          "RouteTableAssociationId": "rtbassoc-04a5c25462c754415",
+          "RouteTableId": "rtb-0a6d744b074192ece",
+          "AssociationState": {
+            "State": "associated"
+          }
+        }
+      ],
+      "PropagatingVgws": [],
+      "RouteTableId": "rtb-0a6d744b074192ece",
+      "Routes": [
+        {
+          "DestinationCidrBlock": "10.***.***.0/16",
+          "GatewayId": "local",
+          "Origin": "CreateRouteTable",
+          "State": "active"
+        }
+      ],
+      "Tags": [],
+      "VpcId": "vpc-0da260ec0375c1799",
+      "OwnerId": "769953010889"
+    }
+  ]
+}

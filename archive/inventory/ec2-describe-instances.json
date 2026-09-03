@@ -1,0 +1,173 @@
+{
+  "Reservations": [
+    {
+      "ReservationId": "r-0d5f8b1d7bf829be7",
+      "OwnerId": "769953010889",
+      "Groups": [],
+      "Instances": [
+        {
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2026-07-18T01:48:54+00:00",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-0ba9f23c4c25bbed0",
+                "EbsCardIndex": 0
+              }
+            }
+          ],
+          "ClientToken": "[REDACTED]",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::769953010889:instance-profile/sca-ctf-prod-bastion-profile",
+            "Id": "AIPA3GRGGSTEUGE3UUNTY"
+          },
+          "NetworkInterfaces": [
+            {
+              "Attachment": {
+                "AttachTime": "2026-07-18T01:48:53+00:00",
+                "AttachmentId": "eni-attach-01c223151311abce6",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupId": "sg-067f720244a63137f",
+                  "GroupName": "sca-ctf-prod-bastion"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "02:09:f3:f7:8c:4b",
+              "NetworkInterfaceId": "eni-0f5c145e4423f5c0c",
+              "OwnerId": "769953010889",
+              "PrivateDnsName": "ip-10-0-11-42.ap-northeast-2.compute.internal",
+              "PrivateIpAddress": "10.***.***.42",
+              "PrivateIpAddresses": [
+                {
+                  "Primary": true,
+                  "PrivateDnsName": "ip-10-0-11-42.ap-northeast-2.compute.internal",
+                  "PrivateIpAddress": "10.***.***.42"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-0c1ddf930752d74be",
+              "VpcId": "vpc-0da260ec0375c1799",
+              "InterfaceType": "interface",
+              "Operator": {
+                "Managed": false
+              }
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupId": "sg-067f720244a63137f",
+              "GroupName": "sca-ctf-prod-bastion"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "Role",
+              "Value": "bastion"
+            },
+            {
+              "Key": "Environment",
+              "Value": "prod"
+            },
+            {
+              "Key": "Name",
+              "Value": "sca-ctf-prod-bastion"
+            },
+            {
+              "Key": "ManagedBy",
+              "Value": "terraform"
+            },
+            {
+              "Key": "Project",
+              "Value": "sca-ctf"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "[REDACTED]",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled",
+            "InstanceMetadataTags": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "BootMode": "uefi-preferred",
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2026-07-18T01:48:53+00:00",
+          "PrivateDnsNameOptions": {
+            "HostnameType": "ip-name",
+            "EnableResourceNameDnsARecord": false,
+            "EnableResourceNameDnsAAAARecord": false
+          },
+          "MaintenanceOptions": {
+            "AutoRecovery": "default",
+            "RebootMigration": "default"
+          },
+          "CurrentInstanceBootMode": "uefi",
+          "NetworkPerformanceOptions": {
+            "BandwidthWeighting": "default"
+          },
+          "Operator": {
+            "Managed": false,
+            "HiddenByDefault": false
+          },
+          "InstanceId": "i-0ec0b62eb0979b6b8",
+          "ImageId": "ami-01e2fc4b04b8c3c14",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "PrivateDnsName": "ip-10-0-11-42.ap-northeast-2.compute.internal",
+          "PublicDnsName": "",
+          "StateTransitionReason": "",
+          "AmiLaunchIndex": 0,
+          "ProductCodes": [],
+          "InstanceType": "t3.micro",
+          "LaunchTime": "2026-07-18T01:48:53+00:00",
+          "Placement": {
+            "AvailabilityZoneId": "apne2-az1",
+            "GroupName": "",
+            "Tenancy": "default",
+            "AvailabilityZone": "ap-northeast-2a"
+          },
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "SubnetId": "subnet-0c1ddf930752d74be",
+          "VpcId": "vpc-0da260ec0375c1799",
+          "PrivateIpAddress": "10.***.***.42"
+        }
+      ]
+    }
+  ]
+}

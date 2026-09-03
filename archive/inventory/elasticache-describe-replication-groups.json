@@ -1,0 +1,69 @@
+{
+  "ReplicationGroups": [
+    {
+      "ReplicationGroupId": "sca-ctf-prod-redis",
+      "Description": "Redis for smctf backend",
+      "GlobalReplicationGroupInfo": {},
+      "Status": "available",
+      "PendingModifiedValues": {},
+      "MemberClusters": [
+        "sca-ctf-prod-redis-001",
+        "sca-ctf-prod-redis-002"
+      ],
+      "NodeGroups": [
+        {
+          "NodeGroupId": "0001",
+          "Status": "available",
+          "PrimaryEndpoint": {
+            "Address": "sca-ctf-prod-redis.qfoigp.ng.0001.apn2.cache.amazonaws.com",
+            "Port": 6379
+          },
+          "ReaderEndpoint": {
+            "Address": "sca-ctf-prod-redis-ro.qfoigp.ng.0001.apn2.cache.amazonaws.com",
+            "Port": 6379
+          },
+          "NodeGroupMembers": [
+            {
+              "CacheClusterId": "sca-ctf-prod-redis-001",
+              "CacheNodeId": "0001",
+              "ReadEndpoint": {
+                "Address": "sca-ctf-prod-redis-001.qfoigp.0001.apn2.cache.amazonaws.com",
+                "Port": 6379
+              },
+              "PreferredAvailabilityZone": "ap-northeast-2c",
+              "CurrentRole": "primary"
+            },
+            {
+              "CacheClusterId": "sca-ctf-prod-redis-002",
+              "CacheNodeId": "0001",
+              "ReadEndpoint": {
+                "Address": "sca-ctf-prod-redis-002.qfoigp.0001.apn2.cache.amazonaws.com",
+                "Port": 6379
+              },
+              "PreferredAvailabilityZone": "ap-northeast-2a",
+              "CurrentRole": "replica"
+            }
+          ]
+        }
+      ],
+      "AutomaticFailover": "enabled",
+      "MultiAZ": "enabled",
+      "SnapshotRetentionLimit": 0,
+      "SnapshotWindow": "01:00-02:00",
+      "ClusterEnabled": false,
+      "CacheNodeType": "cache.t3.micro",
+      "AuthTokenEnabled": false,
+      "TransitEncryptionEnabled": false,
+      "AtRestEncryptionEnabled": false,
+      "StorageEncryptionType": "none",
+      "ARN": "arn:aws:elasticache:ap-northeast-2:769953010889:replicationgroup:sca-ctf-prod-redis",
+      "LogDeliveryConfigurations": [],
+      "ReplicationGroupCreateTime": "2026-07-18T01:48:52.864000+00:00",
+      "AutoMinorVersionUpgrade": true,
+      "NetworkType": "ipv4",
+      "IpDiscovery": "ipv4",
+      "ClusterMode": "disabled",
+      "Engine": "redis"
+    }
+  ]
+}

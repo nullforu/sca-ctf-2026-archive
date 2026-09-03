@@ -1,0 +1,28 @@
+{
+  "TargetGroups": [
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-2:769953010889:targetgroup/sca-ctf-prod-backend/a91dbc021a7a2037",
+      "TargetGroupName": "sca-ctf-prod-backend",
+      "Protocol": "HTTP",
+      "Port": 8080,
+      "VpcId": "vpc-0da260ec0375c1799",
+      "HealthCheckProtocol": "HTTP",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 20,
+      "HealthCheckTimeoutSeconds": 5,
+      "HealthyThresholdCount": 2,
+      "UnhealthyThresholdCount": 2,
+      "HealthCheckPath": "/healthz",
+      "Matcher": {
+        "HttpCode": "200-399"
+      },
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-northeast-2:769953010889:loadbalancer/app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+      ],
+      "TargetType": "ip",
+      "ProtocolVersion": "HTTP1",
+      "IpAddressType": "ipv4"
+    }
+  ]
+}

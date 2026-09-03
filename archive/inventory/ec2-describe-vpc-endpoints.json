@@ -1,0 +1,259 @@
+{
+  "VpcEndpoints": [
+    {
+      "VpcEndpointId": "vpce-0e370eab00dbf2309",
+      "VpcEndpointType": "Interface",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "ServiceName": "com.amazonaws.ap-northeast-2.ec2messages",
+      "State": "available",
+      "PolicyDocument": "{\n  \"Statement\": [\n    {\n      \"Action\": \"*\",\n      \"Effect\": \"Allow\",\n      \"Principal\": \"*\",\n      \"Resource\": \"*\"\n    }\n  ]\n}",
+      "RouteTableIds": [],
+      "SubnetIds": [
+        "subnet-09aa5b7d15c7b0aac",
+        "subnet-0c1ddf930752d74be"
+      ],
+      "Groups": [
+        {
+          "GroupId": "sg-0532128930b4aff20",
+          "GroupName": "sca-ctf-prod-ssm-endpoints"
+        }
+      ],
+      "IpAddressType": "ipv4",
+      "DnsOptions": {
+        "DnsRecordIpType": "ipv4"
+      },
+      "PrivateDnsEnabled": true,
+      "RequesterManaged": false,
+      "NetworkInterfaceIds": [
+        "eni-010e1a3770fbcd469",
+        "eni-06477a7e125860365"
+      ],
+      "DnsEntries": [
+        {
+          "DnsName": "vpce-0e370eab00dbf2309-tga9j8wx.ec2messages.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "vpce-0e370eab00dbf2309-tga9j8wx-ap-northeast-2a.ec2messages.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "vpce-0e370eab00dbf2309-tga9j8wx-ap-northeast-2c.ec2messages.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "ec2messages.ap-northeast-2.amazonaws.com",
+          "HostedZoneId": "Z09818541YZ6B7W69BUWX"
+        }
+      ],
+      "CreationTimestamp": "2026-07-18T01:48:45.523000+00:00",
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-ec2messages"
+        }
+      ],
+      "OwnerId": "769953010889",
+      "ServiceRegion": "ap-northeast-2"
+    },
+    {
+      "VpcEndpointId": "vpce-0a9f498d046ef5f48",
+      "VpcEndpointType": "Interface",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "ServiceName": "com.amazonaws.ap-northeast-2.ssmmessages",
+      "State": "available",
+      "PolicyDocument": "{\n  \"Statement\": [\n    {\n      \"Action\": \"*\",\n      \"Effect\": \"Allow\",\n      \"Principal\": \"*\",\n      \"Resource\": \"*\"\n    }\n  ]\n}",
+      "RouteTableIds": [],
+      "SubnetIds": [
+        "subnet-09aa5b7d15c7b0aac",
+        "subnet-0c1ddf930752d74be"
+      ],
+      "Groups": [
+        {
+          "GroupId": "sg-0532128930b4aff20",
+          "GroupName": "sca-ctf-prod-ssm-endpoints"
+        }
+      ],
+      "IpAddressType": "ipv4",
+      "DnsOptions": {
+        "DnsRecordIpType": "ipv4"
+      },
+      "PrivateDnsEnabled": true,
+      "RequesterManaged": false,
+      "NetworkInterfaceIds": [
+        "eni-0fd5cbc9b78cf5613",
+        "eni-0bb39ba42da902810"
+      ],
+      "DnsEntries": [
+        {
+          "DnsName": "vpce-0a9f498d046ef5f48-o64cl9jt.ssmmessages.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "vpce-0a9f498d046ef5f48-o64cl9jt-ap-northeast-2a.ssmmessages.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "vpce-0a9f498d046ef5f48-o64cl9jt-ap-northeast-2c.ssmmessages.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "ssmmessages.ap-northeast-2.amazonaws.com",
+          "HostedZoneId": "Z0984982NLGG4OB5BDUL"
+        },
+        {
+          "DnsName": "ssmmessages.ap-northeast-2.api.aws",
+          "HostedZoneId": "Z0041350QF2CBM4CNS48"
+        }
+      ],
+      "CreationTimestamp": "2026-07-18T01:48:45.594000+00:00",
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-ssmmessages"
+        }
+      ],
+      "OwnerId": "769953010889",
+      "ServiceRegion": "ap-northeast-2"
+    },
+    {
+      "VpcEndpointId": "vpce-0d66d2700442c7b2b",
+      "VpcEndpointType": "Interface",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "ServiceName": "com.amazonaws.ap-northeast-2.ssm",
+      "State": "available",
+      "PolicyDocument": "{\n  \"Statement\": [\n    {\n      \"Action\": \"*\",\n      \"Effect\": \"Allow\",\n      \"Principal\": \"*\",\n      \"Resource\": \"*\"\n    }\n  ]\n}",
+      "RouteTableIds": [],
+      "SubnetIds": [
+        "subnet-09aa5b7d15c7b0aac",
+        "subnet-0c1ddf930752d74be"
+      ],
+      "Groups": [
+        {
+          "GroupId": "sg-0532128930b4aff20",
+          "GroupName": "sca-ctf-prod-ssm-endpoints"
+        }
+      ],
+      "IpAddressType": "ipv4",
+      "DnsOptions": {
+        "DnsRecordIpType": "ipv4"
+      },
+      "PrivateDnsEnabled": true,
+      "RequesterManaged": false,
+      "NetworkInterfaceIds": [
+        "eni-078424f5c40ad8f0d",
+        "eni-0e857068a6e06fe0c"
+      ],
+      "DnsEntries": [
+        {
+          "DnsName": "vpce-0d66d2700442c7b2b-7v896dgf.ssm.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "vpce-0d66d2700442c7b2b-7v896dgf-ap-northeast-2c.ssm.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "vpce-0d66d2700442c7b2b-7v896dgf-ap-northeast-2a.ssm.ap-northeast-2.vpce.amazonaws.com",
+          "HostedZoneId": "Z27UANNT0PRK1T"
+        },
+        {
+          "DnsName": "ssm.ap-northeast-2.amazonaws.com",
+          "HostedZoneId": "Z09849833S92QUVYGS99O"
+        },
+        {
+          "DnsName": "ssm.ap-northeast-2.api.aws",
+          "HostedZoneId": "Z00485293927DK96RWDCU"
+        }
+      ],
+      "CreationTimestamp": "2026-07-18T01:48:46.107000+00:00",
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-ssm"
+        }
+      ],
+      "OwnerId": "769953010889",
+      "ServiceRegion": "ap-northeast-2"
+    },
+    {
+      "VpcEndpointId": "vpce-0bcdf5a4fd62b72a8",
+      "VpcEndpointType": "Gateway",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "ServiceName": "com.amazonaws.ap-northeast-2.s3",
+      "State": "available",
+      "PolicyDocument": "{\"Version\":\"2008-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"*\",\"Resource\":\"*\"}]}",
+      "RouteTableIds": [
+        "rtb-0ba775b945f689097",
+        "rtb-09888cb828758ba4d"
+      ],
+      "SubnetIds": [],
+      "Groups": [],
+      "IpAddressType": "ipv4",
+      "DnsOptions": {
+        "DnsRecordIpType": "service-defined"
+      },
+      "PrivateDnsEnabled": false,
+      "RequesterManaged": false,
+      "NetworkInterfaceIds": [],
+      "DnsEntries": [],
+      "CreationTimestamp": "2026-07-18T01:48:49+00:00",
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-s3"
+        }
+      ],
+      "OwnerId": "769953010889",
+      "ServiceRegion": "ap-northeast-2"
+    }
+  ]
+}

@@ -1,0 +1,1628 @@
+{
+  "Namespace": "ECS/ContainerInsights",
+  "MetricName": "NetworkRxBytes",
+  "Dimensions": [
+    {
+      "Name": "ServiceName",
+      "Value": "invite-bot"
+    },
+    {
+      "Name": "ClusterName",
+      "Value": "sca-ctf-prod-backend"
+    }
+  ],
+  "Period": 900,
+  "Datapoints": [
+    {
+      "Timestamp": "2026-07-17 11:16:00+09:00",
+      "SampleCount": 6.0,
+      "Average": 76.0,
+      "Sum": 456.0,
+      "Minimum": 3.0,
+      "Maximum": 432.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 11:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 11:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 12:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 12:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 12:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.0,
+      "Sum": 195.0,
+      "Minimum": 3.0,
+      "Maximum": 32.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 12:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.666666666666666,
+      "Sum": 190.0,
+      "Minimum": 3.0,
+      "Maximum": 31.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 13:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 9.666666666666666,
+      "Sum": 145.0,
+      "Minimum": 3.0,
+      "Maximum": 26.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 13:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 10.866666666666667,
+      "Sum": 163.0,
+      "Minimum": 3.0,
+      "Maximum": 43.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 13:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 13:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 14:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 14:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.933333333333334,
+      "Sum": 89.0,
+      "Minimum": 3.0,
+      "Maximum": 26.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 14:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 14.2,
+      "Sum": 213.0,
+      "Minimum": 3.0,
+      "Maximum": 124.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 14:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 6.0,
+      "Sum": 90.0,
+      "Minimum": 3.0,
+      "Maximum": 19.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 15:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.066666666666666,
+      "Sum": 76.0,
+      "Minimum": 3.0,
+      "Maximum": 16.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 15:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.866666666666666,
+      "Sum": 88.0,
+      "Minimum": 3.0,
+      "Maximum": 27.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 15:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.666666666666667,
+      "Sum": 70.0,
+      "Minimum": 3.0,
+      "Maximum": 7.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 15:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 16:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 16:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.333333333333333,
+      "Sum": 80.0,
+      "Minimum": 3.0,
+      "Maximum": 17.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 16:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.666666666666667,
+      "Sum": 70.0,
+      "Minimum": 3.0,
+      "Maximum": 10.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 16:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 17:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 7.4,
+      "Sum": 111.0,
+      "Minimum": 3.0,
+      "Maximum": 36.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 17:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.466666666666667,
+      "Sum": 67.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 17:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 17:46:00+09:00",
+      "SampleCount": 14.0,
+      "Average": 4.785714285714286,
+      "Sum": 67.0,
+      "Minimum": 3.0,
+      "Maximum": 10.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 19:46:00+09:00",
+      "SampleCount": 1.0,
+      "Average": 735.0,
+      "Sum": 735.0,
+      "Minimum": 735.0,
+      "Maximum": 735.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 20:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.466666666666667,
+      "Sum": 82.0,
+      "Minimum": 3.0,
+      "Maximum": 22.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 20:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 20:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 20:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.266666666666667,
+      "Sum": 184.0,
+      "Minimum": 3.0,
+      "Maximum": 121.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 21:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 21:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.666666666666667,
+      "Sum": 85.0,
+      "Minimum": 3.0,
+      "Maximum": 22.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 21:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 21:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 14.8,
+      "Sum": 222.0,
+      "Minimum": 3.0,
+      "Maximum": 121.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 22:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 7.466666666666667,
+      "Sum": 112.0,
+      "Minimum": 3.0,
+      "Maximum": 21.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 22:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 22:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.133333333333334,
+      "Sum": 77.0,
+      "Minimum": 3.0,
+      "Maximum": 14.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 22:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 23:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 23:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 23:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-17 23:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 00:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 00:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 00:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 00:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 01:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 01:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 01:31:00+09:00",
+      "SampleCount": 8.0,
+      "Average": 20.375,
+      "Sum": 163.0,
+      "Minimum": 3.0,
+      "Maximum": 127.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 10:46:00+09:00",
+      "SampleCount": 11.0,
+      "Average": 56.63636363636363,
+      "Sum": 623.0,
+      "Minimum": 0.0,
+      "Maximum": 584.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 11:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 11:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 11:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.6,
+      "Sum": 189.0,
+      "Minimum": 3.0,
+      "Maximum": 129.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 11:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 12:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 12:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.866666666666666,
+      "Sum": 73.0,
+      "Minimum": 3.0,
+      "Maximum": 13.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 12:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.6,
+      "Sum": 84.0,
+      "Minimum": 3.0,
+      "Maximum": 24.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 12:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 25.933333333333334,
+      "Sum": 389.0,
+      "Minimum": 3.0,
+      "Maximum": 170.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 13:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 11.666666666666666,
+      "Sum": 175.0,
+      "Minimum": 3.0,
+      "Maximum": 37.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 13:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 14.0,
+      "Sum": 210.0,
+      "Minimum": 3.0,
+      "Maximum": 42.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 13:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.2,
+      "Sum": 183.0,
+      "Minimum": 3.0,
+      "Maximum": 37.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 13:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 11.2,
+      "Sum": 168.0,
+      "Minimum": 3.0,
+      "Maximum": 42.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 14:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.866666666666666,
+      "Sum": 88.0,
+      "Minimum": 3.0,
+      "Maximum": 28.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 14:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 14.466666666666667,
+      "Sum": 217.0,
+      "Minimum": 3.0,
+      "Maximum": 121.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 14:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.333333333333334,
+      "Sum": 185.0,
+      "Minimum": 3.0,
+      "Maximum": 120.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 14:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.466666666666667,
+      "Sum": 67.0,
+      "Minimum": 3.0,
+      "Maximum": 7.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 15:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 37.53333333333333,
+      "Sum": 563.0,
+      "Minimum": 3.0,
+      "Maximum": 328.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 15:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.866666666666666,
+      "Sum": 73.0,
+      "Minimum": 3.0,
+      "Maximum": 11.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 15:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.4,
+      "Sum": 186.0,
+      "Minimum": 3.0,
+      "Maximum": 129.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 15:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 16:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 16:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 16:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 16:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 17:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 14.0,
+      "Sum": 210.0,
+      "Minimum": 3.0,
+      "Maximum": 126.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 17:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 6.133333333333334,
+      "Sum": 92.0,
+      "Minimum": 3.0,
+      "Maximum": 20.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 17:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 17:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 18:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 18:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.533333333333333,
+      "Sum": 83.0,
+      "Minimum": 3.0,
+      "Maximum": 23.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 18:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 18:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 6.4,
+      "Sum": 96.0,
+      "Minimum": 3.0,
+      "Maximum": 17.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 19:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 19:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 19:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.933333333333334,
+      "Sum": 74.0,
+      "Minimum": 0.0,
+      "Maximum": 15.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 19:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 44.266666666666666,
+      "Sum": 664.0,
+      "Minimum": 3.0,
+      "Maximum": 595.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 20:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 31.0,
+      "Sum": 465.0,
+      "Minimum": 3.0,
+      "Maximum": 389.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 20:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 83.53333333333333,
+      "Sum": 1253.0,
+      "Minimum": 3.0,
+      "Maximum": 417.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 20:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 28.266666666666666,
+      "Sum": 424.0,
+      "Minimum": 3.0,
+      "Maximum": 199.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 20:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 50.333333333333336,
+      "Sum": 755.0,
+      "Minimum": 3.0,
+      "Maximum": 320.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 21:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 25.6,
+      "Sum": 384.0,
+      "Minimum": 3.0,
+      "Maximum": 324.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 21:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 28.133333333333333,
+      "Sum": 422.0,
+      "Minimum": 3.0,
+      "Maximum": 227.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 21:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 34.46666666666667,
+      "Sum": 517.0,
+      "Minimum": 3.0,
+      "Maximum": 320.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 21:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 13.466666666666667,
+      "Sum": 202.0,
+      "Minimum": 3.0,
+      "Maximum": 142.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 22:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 24.0,
+      "Sum": 360.0,
+      "Minimum": 3.0,
+      "Maximum": 303.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 22:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.6,
+      "Sum": 84.0,
+      "Minimum": 3.0,
+      "Maximum": 24.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 22:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 22:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 6.266666666666667,
+      "Sum": 94.0,
+      "Minimum": 3.0,
+      "Maximum": 31.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 23:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 23:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 55.46666666666667,
+      "Sum": 832.0,
+      "Minimum": 3.0,
+      "Maximum": 420.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 23:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-18 23:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.4,
+      "Sum": 81.0,
+      "Minimum": 3.0,
+      "Maximum": 18.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 00:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 00:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.4,
+      "Sum": 186.0,
+      "Minimum": 3.0,
+      "Maximum": 126.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 00:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.866666666666666,
+      "Sum": 73.0,
+      "Minimum": 3.0,
+      "Maximum": 10.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 00:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 24.333333333333332,
+      "Sum": 365.0,
+      "Minimum": 3.0,
+      "Maximum": 305.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 01:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 26.266666666666666,
+      "Sum": 394.0,
+      "Minimum": 3.0,
+      "Maximum": 317.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 01:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 28.333333333333332,
+      "Sum": 425.0,
+      "Minimum": 3.0,
+      "Maximum": 345.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 01:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 33.86666666666667,
+      "Sum": 508.0,
+      "Minimum": 3.0,
+      "Maximum": 196.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 01:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 54.4,
+      "Sum": 816.0,
+      "Minimum": 3.0,
+      "Maximum": 446.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 02:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 02:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 02:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.666666666666666,
+      "Sum": 190.0,
+      "Minimum": 3.0,
+      "Maximum": 130.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 02:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 03:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 03:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.2,
+      "Sum": 78.0,
+      "Minimum": 3.0,
+      "Maximum": 18.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 03:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 03:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 04:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.6,
+      "Sum": 189.0,
+      "Minimum": 3.0,
+      "Maximum": 129.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 04:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 04:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 04:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 05:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 27.2,
+      "Sum": 408.0,
+      "Minimum": 3.0,
+      "Maximum": 325.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 05:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 05:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 05:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 06:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 06:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 06:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 06:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 12.8,
+      "Sum": 192.0,
+      "Minimum": 3.0,
+      "Maximum": 129.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 07:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.2,
+      "Sum": 63.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 07:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 07:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 21.866666666666667,
+      "Sum": 328.0,
+      "Minimum": 3.0,
+      "Maximum": 268.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 07:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 4.4,
+      "Sum": 66.0,
+      "Minimum": 3.0,
+      "Maximum": 6.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 08:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 5.733333333333333,
+      "Sum": 86.0,
+      "Minimum": 3.0,
+      "Maximum": 22.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 08:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 41.666666666666664,
+      "Sum": 625.0,
+      "Minimum": 3.0,
+      "Maximum": 345.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 08:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 17.2,
+      "Sum": 258.0,
+      "Minimum": 3.0,
+      "Maximum": 179.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 08:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 158.33333333333334,
+      "Sum": 2375.0,
+      "Minimum": 3.0,
+      "Maximum": 1355.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 09:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 1124.8666666666666,
+      "Sum": 16873.0,
+      "Minimum": 421.0,
+      "Maximum": 1738.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 09:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 786.6,
+      "Sum": 11799.0,
+      "Minimum": 327.0,
+      "Maximum": 1587.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 09:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 721.2666666666667,
+      "Sum": 10819.0,
+      "Minimum": 216.0,
+      "Maximum": 1134.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 09:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 570.3333333333334,
+      "Sum": 8555.0,
+      "Minimum": 129.0,
+      "Maximum": 930.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 10:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 516.7333333333333,
+      "Sum": 7751.0,
+      "Minimum": 64.0,
+      "Maximum": 911.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 10:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 475.0,
+      "Sum": 7125.0,
+      "Minimum": 208.0,
+      "Maximum": 775.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 10:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 441.53333333333336,
+      "Sum": 6623.0,
+      "Minimum": 110.0,
+      "Maximum": 804.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 10:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 382.3333333333333,
+      "Sum": 5735.0,
+      "Minimum": 109.0,
+      "Maximum": 754.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 11:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 270.8666666666667,
+      "Sum": 4063.0,
+      "Minimum": 108.0,
+      "Maximum": 541.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 11:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 187.06666666666666,
+      "Sum": 2806.0,
+      "Minimum": 3.0,
+      "Maximum": 605.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 11:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 264.6,
+      "Sum": 3969.0,
+      "Minimum": 3.0,
+      "Maximum": 577.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 11:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 137.0,
+      "Sum": 2055.0,
+      "Minimum": 3.0,
+      "Maximum": 515.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 12:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 230.2,
+      "Sum": 3453.0,
+      "Minimum": 6.0,
+      "Maximum": 522.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 12:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 188.33333333333334,
+      "Sum": 2825.0,
+      "Minimum": 6.0,
+      "Maximum": 321.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 12:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 126.13333333333334,
+      "Sum": 1892.0,
+      "Minimum": 3.0,
+      "Maximum": 319.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 12:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 200.4,
+      "Sum": 3006.0,
+      "Minimum": 6.0,
+      "Maximum": 457.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 13:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 187.66666666666666,
+      "Sum": 2815.0,
+      "Minimum": 3.0,
+      "Maximum": 625.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 13:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 182.53333333333333,
+      "Sum": 2738.0,
+      "Minimum": 6.0,
+      "Maximum": 490.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 13:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 153.0,
+      "Sum": 2295.0,
+      "Minimum": 3.0,
+      "Maximum": 380.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 13:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 99.53333333333333,
+      "Sum": 1493.0,
+      "Minimum": 3.0,
+      "Maximum": 318.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 14:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 134.6,
+      "Sum": 2019.0,
+      "Minimum": 3.0,
+      "Maximum": 427.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 14:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 124.8,
+      "Sum": 1872.0,
+      "Minimum": 3.0,
+      "Maximum": 273.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 14:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 60.0,
+      "Sum": 900.0,
+      "Minimum": 3.0,
+      "Maximum": 215.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 14:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 104.0,
+      "Sum": 1560.0,
+      "Minimum": 3.0,
+      "Maximum": 318.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 15:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 90.6,
+      "Sum": 1359.0,
+      "Minimum": 3.0,
+      "Maximum": 287.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 15:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 93.8,
+      "Sum": 1407.0,
+      "Minimum": 3.0,
+      "Maximum": 311.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 15:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 155.53333333333333,
+      "Sum": 2333.0,
+      "Minimum": 3.0,
+      "Maximum": 334.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 15:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 96.6,
+      "Sum": 1449.0,
+      "Minimum": 3.0,
+      "Maximum": 271.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 16:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 47.733333333333334,
+      "Sum": 716.0,
+      "Minimum": 3.0,
+      "Maximum": 272.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 16:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 110.26666666666667,
+      "Sum": 1654.0,
+      "Minimum": 3.0,
+      "Maximum": 323.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 16:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 96.33333333333333,
+      "Sum": 1445.0,
+      "Minimum": 3.0,
+      "Maximum": 344.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 16:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 44.2,
+      "Sum": 663.0,
+      "Minimum": 3.0,
+      "Maximum": 154.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 17:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 87.33333333333333,
+      "Sum": 1310.0,
+      "Minimum": 3.0,
+      "Maximum": 211.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 17:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 26.133333333333333,
+      "Sum": 392.0,
+      "Minimum": 3.0,
+      "Maximum": 111.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 17:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 52.86666666666667,
+      "Sum": 793.0,
+      "Minimum": 3.0,
+      "Maximum": 112.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 17:46:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 69.46666666666667,
+      "Sum": 1042.0,
+      "Minimum": 3.0,
+      "Maximum": 264.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 18:01:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 31.2,
+      "Sum": 468.0,
+      "Minimum": 3.0,
+      "Maximum": 246.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 18:16:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 31.133333333333333,
+      "Sum": 467.0,
+      "Minimum": 3.0,
+      "Maximum": 202.0,
+      "Unit": "Bytes/Second"
+    },
+    {
+      "Timestamp": "2026-07-19 18:31:00+09:00",
+      "SampleCount": 15.0,
+      "Average": 9.933333333333334,
+      "Sum": 149.0,
+      "Minimum": 3.0,
+      "Maximum": 50.0,
+      "Unit": "Bytes/Second"
+    }
+  ]
+}

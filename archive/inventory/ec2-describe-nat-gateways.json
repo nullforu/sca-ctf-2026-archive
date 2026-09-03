@@ -1,0 +1,43 @@
+{
+  "NatGateways": [
+    {
+      "CreateTime": "2026-07-18T01:48:56+00:00",
+      "NatGatewayAddresses": [
+        {
+          "AllocationId": "eipalloc-0cddd65892bc93ae2",
+          "NetworkInterfaceId": "eni-015aa2d6c4eca90da",
+          "PrivateIp": "10.***.***.178",
+          "PublicIp": "54.***.***.76",
+          "AssociationId": "eipassoc-0ede687609562e821",
+          "IsPrimary": true,
+          "Status": "succeeded"
+        }
+      ],
+      "NatGatewayId": "nat-05ff2c4395449f5ba",
+      "State": "available",
+      "SubnetId": "subnet-07b49e206692d3bad",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "Tags": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-nat-single"
+        }
+      ],
+      "ConnectivityType": "public",
+      "AvailabilityMode": "zonal",
+      "AttachedAppliances": []
+    }
+  ]
+}

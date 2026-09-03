@@ -1,0 +1,292 @@
+{
+  "Subnets": [
+    {
+      "AvailabilityZoneId": "apne2-az1",
+      "MapCustomerOwnedIpOnLaunch": false,
+      "OwnerId": "769953010889",
+      "AssignIpv6AddressOnCreation": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "Tags": [
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-public-ap-northeast-2a"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Tier",
+          "Value": "public"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        }
+      ],
+      "SubnetArn": "arn:aws:ec2:ap-northeast-2:769953010889:subnet/subnet-07b49e206692d3bad",
+      "EnableDns64": false,
+      "Ipv6Native": false,
+      "PrivateDnsNameOptionsOnLaunch": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": false,
+        "EnableResourceNameDnsAAAARecord": false
+      },
+      "BlockPublicAccessStates": {
+        "InternetGatewayBlockMode": "off"
+      },
+      "SubnetId": "subnet-07b49e206692d3bad",
+      "State": "available",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "CidrBlock": "10.***.***.0/24",
+      "AvailableIpAddressCount": 249,
+      "AvailabilityZone": "ap-northeast-2a",
+      "DefaultForAz": false,
+      "MapPublicIpOnLaunch": true
+    },
+    {
+      "AvailabilityZoneId": "apne2-az1",
+      "MapCustomerOwnedIpOnLaunch": false,
+      "OwnerId": "769953010889",
+      "AssignIpv6AddressOnCreation": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "Tags": [
+        {
+          "Key": "Tier",
+          "Value": "protected"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-protected-ap-northeast-2a"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        }
+      ],
+      "SubnetArn": "arn:aws:ec2:ap-northeast-2:769953010889:subnet/subnet-0c65c9953f7fefc89",
+      "EnableDns64": false,
+      "Ipv6Native": false,
+      "PrivateDnsNameOptionsOnLaunch": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": false,
+        "EnableResourceNameDnsAAAARecord": false
+      },
+      "BlockPublicAccessStates": {
+        "InternetGatewayBlockMode": "off"
+      },
+      "SubnetId": "subnet-0c65c9953f7fefc89",
+      "State": "available",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "CidrBlock": "10.***.***.0/24",
+      "AvailableIpAddressCount": 249,
+      "AvailabilityZone": "ap-northeast-2a",
+      "DefaultForAz": false,
+      "MapPublicIpOnLaunch": false
+    },
+    {
+      "AvailabilityZoneId": "apne2-az3",
+      "MapCustomerOwnedIpOnLaunch": false,
+      "OwnerId": "769953010889",
+      "AssignIpv6AddressOnCreation": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "Tags": [
+        {
+          "Key": "Tier",
+          "Value": "public"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-public-ap-northeast-2c"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        }
+      ],
+      "SubnetArn": "arn:aws:ec2:ap-northeast-2:769953010889:subnet/subnet-01900e8e7fd74a62a",
+      "EnableDns64": false,
+      "Ipv6Native": false,
+      "PrivateDnsNameOptionsOnLaunch": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": false,
+        "EnableResourceNameDnsAAAARecord": false
+      },
+      "BlockPublicAccessStates": {
+        "InternetGatewayBlockMode": "off"
+      },
+      "SubnetId": "subnet-01900e8e7fd74a62a",
+      "State": "available",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "CidrBlock": "10.***.***.0/24",
+      "AvailableIpAddressCount": 250,
+      "AvailabilityZone": "ap-northeast-2c",
+      "DefaultForAz": false,
+      "MapPublicIpOnLaunch": true
+    },
+    {
+      "AvailabilityZoneId": "apne2-az3",
+      "MapCustomerOwnedIpOnLaunch": false,
+      "OwnerId": "769953010889",
+      "AssignIpv6AddressOnCreation": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-protected-ap-northeast-2c"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Tier",
+          "Value": "protected"
+        }
+      ],
+      "SubnetArn": "arn:aws:ec2:ap-northeast-2:769953010889:subnet/subnet-04efa9b7625c55309",
+      "EnableDns64": false,
+      "Ipv6Native": false,
+      "PrivateDnsNameOptionsOnLaunch": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": false,
+        "EnableResourceNameDnsAAAARecord": false
+      },
+      "BlockPublicAccessStates": {
+        "InternetGatewayBlockMode": "off"
+      },
+      "SubnetId": "subnet-04efa9b7625c55309",
+      "State": "available",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "CidrBlock": "10.***.***.0/24",
+      "AvailableIpAddressCount": 249,
+      "AvailabilityZone": "ap-northeast-2c",
+      "DefaultForAz": false,
+      "MapPublicIpOnLaunch": false
+    },
+    {
+      "AvailabilityZoneId": "apne2-az3",
+      "MapCustomerOwnedIpOnLaunch": false,
+      "OwnerId": "769953010889",
+      "AssignIpv6AddressOnCreation": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "Tags": [
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Tier",
+          "Value": "private"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-private-ap-northeast-2c"
+        }
+      ],
+      "SubnetArn": "arn:aws:ec2:ap-northeast-2:769953010889:subnet/subnet-09aa5b7d15c7b0aac",
+      "EnableDns64": false,
+      "Ipv6Native": false,
+      "PrivateDnsNameOptionsOnLaunch": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": false,
+        "EnableResourceNameDnsAAAARecord": false
+      },
+      "BlockPublicAccessStates": {
+        "InternetGatewayBlockMode": "off"
+      },
+      "SubnetId": "subnet-09aa5b7d15c7b0aac",
+      "State": "available",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "CidrBlock": "10.***.***.0/24",
+      "AvailableIpAddressCount": 246,
+      "AvailabilityZone": "ap-northeast-2c",
+      "DefaultForAz": false,
+      "MapPublicIpOnLaunch": false
+    },
+    {
+      "AvailabilityZoneId": "apne2-az1",
+      "MapCustomerOwnedIpOnLaunch": false,
+      "OwnerId": "769953010889",
+      "AssignIpv6AddressOnCreation": false,
+      "Ipv6CidrBlockAssociationSet": [],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "sca-ctf-prod-private-ap-northeast-2a"
+        },
+        {
+          "Key": "Tier",
+          "Value": "private"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        }
+      ],
+      "SubnetArn": "arn:aws:ec2:ap-northeast-2:769953010889:subnet/subnet-0c1ddf930752d74be",
+      "EnableDns64": false,
+      "Ipv6Native": false,
+      "PrivateDnsNameOptionsOnLaunch": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": false,
+        "EnableResourceNameDnsAAAARecord": false
+      },
+      "BlockPublicAccessStates": {
+        "InternetGatewayBlockMode": "off"
+      },
+      "SubnetId": "subnet-0c1ddf930752d74be",
+      "State": "available",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "CidrBlock": "10.***.***.0/24",
+      "AvailableIpAddressCount": 246,
+      "AvailabilityZone": "ap-northeast-2a",
+      "DefaultForAz": false,
+      "MapPublicIpOnLaunch": false
+    }
+  ]
+}

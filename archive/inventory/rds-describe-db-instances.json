@@ -1,0 +1,117 @@
+{
+  "DBInstances": [
+    {
+      "DBInstanceIdentifier": "sca-ctf-prod-postgres",
+      "DBInstanceClass": "db.t4g.medium",
+      "Engine": "postgres",
+      "DBInstanceStatus": "available",
+      "MasterUsername": "app_user",
+      "DBName": "app_db",
+      "Endpoint": {
+        "Address": "sca-ctf-prod-postgres.cnisy4mgiz37.ap-northeast-2.rds.amazonaws.com",
+        "Port": 5432,
+        "HostedZoneId": "ZLA2NUCOLGUUR"
+      },
+      "AllocatedStorage": 20,
+      "InstanceCreateTime": "2026-07-18T01:51:39.449000+00:00",
+      "PreferredBackupWindow": "14:28-14:58",
+      "BackupRetentionPeriod": 14,
+      "DBSecurityGroups": [],
+      "VpcSecurityGroups": [
+        {
+          "VpcSecurityGroupId": "sg-0dfc4f090571c4a60",
+          "Status": "active"
+        }
+      ],
+      "DBParameterGroups": [
+        {
+          "DBParameterGroupName": "default.postgres18",
+          "ParameterApplyStatus": "in-sync"
+        }
+      ],
+      "AvailabilityZone": "ap-northeast-2a",
+      "DBSubnetGroup": {
+        "DBSubnetGroupName": "sca-ctf-prod-db-subnet-vpc-0da2",
+        "DBSubnetGroupDescription": "Managed by Terraform",
+        "VpcId": "vpc-0da260ec0375c1799",
+        "SubnetGroupStatus": "Complete",
+        "Subnets": [
+          {
+            "SubnetIdentifier": "subnet-04efa9b7625c55309",
+            "SubnetAvailabilityZone": {
+              "Name": "ap-northeast-2c"
+            },
+            "SubnetOutpost": {},
+            "SubnetStatus": "Active"
+          },
+          {
+            "SubnetIdentifier": "subnet-0c65c9953f7fefc89",
+            "SubnetAvailabilityZone": {
+              "Name": "ap-northeast-2a"
+            },
+            "SubnetOutpost": {},
+            "SubnetStatus": "Active"
+          }
+        ]
+      },
+      "PreferredMaintenanceWindow": "sat:15:46-sat:16:16",
+      "UpgradeRolloutOrder": "second",
+      "PendingModifiedValues": {},
+      "LatestRestorableTime": "2026-07-19T09:36:32+00:00",
+      "MultiAZ": true,
+      "EngineVersion": "18.3",
+      "AutoMinorVersionUpgrade": true,
+      "ReadReplicaDBInstanceIdentifiers": [],
+      "LicenseModel": "postgresql-license",
+      "StorageThroughput": 0,
+      "OptionGroupMemberships": [
+        {
+          "OptionGroupName": "default:postgres-18",
+          "Status": "in-sync"
+        }
+      ],
+      "SecondaryAvailabilityZone": "ap-northeast-2c",
+      "PubliclyAccessible": false,
+      "StorageType": "gp2",
+      "DbInstancePort": 0,
+      "StorageEncrypted": true,
+      "KmsKeyId": "arn:aws:kms:ap-northeast-2:769953010889:key/16d5c73d-1055-442a-92d1-5980dc1bf529",
+      "DbiResourceId": "db-VEGCGERXJEJOOJWN3CJIGAELRE",
+      "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+      "DomainMemberships": [],
+      "CopyTagsToSnapshot": false,
+      "MonitoringInterval": 0,
+      "DBInstanceArn": "arn:aws:rds:ap-northeast-2:769953010889:db:sca-ctf-prod-postgres",
+      "IAMDatabaseAuthenticationEnabled": false,
+      "DatabaseInsightsMode": "standard",
+      "PerformanceInsightsEnabled": false,
+      "DeletionProtection": false,
+      "AssociatedRoles": [],
+      "TagList": [
+        {
+          "Key": "Project",
+          "Value": "sca-ctf"
+        },
+        {
+          "Key": "Environment",
+          "Value": "prod"
+        },
+        {
+          "Key": "ManagedBy",
+          "Value": "terraform"
+        }
+      ],
+      "CustomerOwnedIpEnabled": false,
+      "NetworkType": "IPV4",
+      "ActivityStreamStatus": "stopped",
+      "BackupTarget": "region",
+      "CertificateDetails": {
+        "CAIdentifier": "rds-ca-rsa2048-g1",
+        "ValidTill": "2027-07-18T01:50:56+00:00"
+      },
+      "DedicatedLogVolume": false,
+      "IsStorageConfigUpgradeAvailable": false,
+      "EngineLifecycleSupport": "open-source-rds-extended-support"
+    }
+  ]
+}

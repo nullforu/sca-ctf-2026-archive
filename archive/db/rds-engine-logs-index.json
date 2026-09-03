@@ -1,0 +1,202 @@
+[
+  {
+    "LogFileName": "error/postgres.log",
+    "LastWritten": 1784389951629,
+    "Size": 600
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-17-11",
+    "LastWritten": 1784289373473,
+    "Size": 5165
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-17-12",
+    "LastWritten": 1784292973843,
+    "Size": 4608
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-17-13",
+    "LastWritten": 1784296573915,
+    "Size": 4602
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-17-14",
+    "LastWritten": 1784300173783,
+    "Size": 4598
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-17-15",
+    "LastWritten": 1784303774791,
+    "Size": 4600
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-17-16",
+    "LastWritten": 1784306831793,
+    "Size": 4601
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-01",
+    "LastWritten": 1784339783745,
+    "Size": 1670
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-02",
+    "LastWritten": 1784343382893,
+    "Size": 4599
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-03",
+    "LastWritten": 1784346984391,
+    "Size": 4608
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-04",
+    "LastWritten": 1784350584523,
+    "Size": 4599
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-05",
+    "LastWritten": 1784354186096,
+    "Size": 4600
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-06",
+    "LastWritten": 1784357787377,
+    "Size": 4580
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-07",
+    "LastWritten": 1784361389882,
+    "Size": 4598
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-08",
+    "LastWritten": 1784364991959,
+    "Size": 4597
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-09",
+    "LastWritten": 1784368591519,
+    "Size": 4598
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-10",
+    "LastWritten": 1784372193936,
+    "Size": 4598
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-11",
+    "LastWritten": 1784375796637,
+    "Size": 4612
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-12",
+    "LastWritten": 1784379394291,
+    "Size": 4608
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-13",
+    "LastWritten": 1784382996084,
+    "Size": 5036
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-14",
+    "LastWritten": 1784386596142,
+    "Size": 4617
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-15",
+    "LastWritten": 1784390252179,
+    "Size": 6234
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-16",
+    "LastWritten": 1784393854126,
+    "Size": 4613
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-17",
+    "LastWritten": 1784397456164,
+    "Size": 4594
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-18",
+    "LastWritten": 1784401055311,
+    "Size": 4596
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-19",
+    "LastWritten": 1784404656559,
+    "Size": 4596
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-20",
+    "LastWritten": 1784408257796,
+    "Size": 4597
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-21",
+    "LastWritten": 1784411858503,
+    "Size": 4596
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-22",
+    "LastWritten": 1784415461090,
+    "Size": 4583
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-18-23",
+    "LastWritten": 1784419061637,
+    "Size": 4607
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-00",
+    "LastWritten": 1784422668415,
+    "Size": 4743
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-01",
+    "LastWritten": 1784426269082,
+    "Size": 4620
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-02",
+    "LastWritten": 1784429869580,
+    "Size": 5120
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-03",
+    "LastWritten": 1784433471328,
+    "Size": 4610
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-04",
+    "LastWritten": 1784437071855,
+    "Size": 4616
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-05",
+    "LastWritten": 1784440675703,
+    "Size": 4620
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-06",
+    "LastWritten": 1784444276860,
+    "Size": 4620
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-07",
+    "LastWritten": 1784447876798,
+    "Size": 4620
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-08",
+    "LastWritten": 1784451477276,
+    "Size": 4620
+  },
+  {
+    "LogFileName": "error/postgresql.log.2026-07-19-09",
+    "LastWritten": 1784454175964,
+    "Size": 3438
+  }
+]

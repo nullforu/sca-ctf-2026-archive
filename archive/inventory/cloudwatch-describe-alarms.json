@@ -1,0 +1,75 @@
+{
+  "MetricAlarms": [
+    {
+      "AlarmName": "TargetTracking-service/sca-ctf-prod-backend/backend-AlarmHigh-c436d680-b447-499b-b97e-37ffef2a1256",
+      "AlarmArn": "arn:aws:cloudwatch:ap-northeast-2:769953010889:alarm:TargetTracking-service/sca-ctf-prod-backend/backend-AlarmHigh-c436d680-b447-499b-b97e-37ffef2a1256",
+      "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:ap-northeast-2:769953010889:scalingPolicy:934db94c-619c-4a1d-a624-b152d21e86f7:resource/ecs/service/sca-ctf-prod-backend/backend:policyName/sca-ctf-prod-backend-cpu:createdBy/7b9df9be-1514-4f48-86cc-4f2ac3d5add3.",
+      "AlarmConfigurationUpdatedTimestamp": "2026-07-18T11:05:01.986000+09:00",
+      "ActionsEnabled": true,
+      "OKActions": [],
+      "AlarmActions": [
+        "arn:aws:autoscaling:ap-northeast-2:769953010889:scalingPolicy:934db94c-619c-4a1d-a624-b152d21e86f7:resource/ecs/service/sca-ctf-prod-backend/backend:policyName/sca-ctf-prod-backend-cpu:createdBy/7b9df9be-1514-4f48-86cc-4f2ac3d5add3"
+      ],
+      "InsufficientDataActions": [],
+      "StateValue": "OK",
+      "StateReason": "Threshold Crossed: 1 datapoint [0.0 (18/07/26 02:05:00)] was not greater than the threshold (55.0).",
+      "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-07-18T02:08:05.957+0000\",\"startDate\":\"2026-07-18T02:05:00.000+0000\",\"unit\":\"Percent\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[0.0],\"threshold\":55.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-07-18T02:05:00.000+0000\",\"sampleCount\":1.0,\"value\":0.0}]}",
+      "StateUpdatedTimestamp": "2026-07-18T11:08:05.959000+09:00",
+      "MetricName": "CPUUtilization",
+      "Namespace": "AWS/ECS",
+      "Statistic": "Average",
+      "Dimensions": [
+        {
+          "Name": "ClusterName",
+          "Value": "sca-ctf-prod-backend"
+        },
+        {
+          "Name": "ServiceName",
+          "Value": "backend"
+        }
+      ],
+      "Period": 60,
+      "Unit": "Percent",
+      "EvaluationPeriods": 3,
+      "Threshold": 55.0,
+      "ComparisonOperator": "GreaterThanThreshold",
+      "StateTransitionedTimestamp": "2026-07-18T11:08:05.959000+09:00"
+    },
+    {
+      "AlarmName": "TargetTracking-service/sca-ctf-prod-backend/backend-AlarmLow-7704445c-5930-41ac-ac49-a4739946861e",
+      "AlarmArn": "arn:aws:cloudwatch:ap-northeast-2:769953010889:alarm:TargetTracking-service/sca-ctf-prod-backend/backend-AlarmLow-7704445c-5930-41ac-ac49-a4739946861e",
+      "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:ap-northeast-2:769953010889:scalingPolicy:934db94c-619c-4a1d-a624-b152d21e86f7:resource/ecs/service/sca-ctf-prod-backend/backend:policyName/sca-ctf-prod-backend-cpu:createdBy/7b9df9be-1514-4f48-86cc-4f2ac3d5add3.",
+      "AlarmConfigurationUpdatedTimestamp": "2026-07-18T11:05:02.046000+09:00",
+      "ActionsEnabled": true,
+      "OKActions": [],
+      "AlarmActions": [
+        "arn:aws:autoscaling:ap-northeast-2:769953010889:scalingPolicy:934db94c-619c-4a1d-a624-b152d21e86f7:resource/ecs/service/sca-ctf-prod-backend/backend:policyName/sca-ctf-prod-backend-cpu:createdBy/7b9df9be-1514-4f48-86cc-4f2ac3d5add3"
+      ],
+      "InsufficientDataActions": [],
+      "StateValue": "ALARM",
+      "StateReason": "Threshold Crossed: 15 datapoints were less than the threshold (49.5). The most recent datapoints which crossed the threshold: [0.07263570216794808 (18/07/26 02:19:00), 0.03188617030779521 (18/07/26 02:18:00), 0.030471160231779017 (18/07/26 02:17:00), 0.01658956054598093 (18/07/26 02:16:00), 0.023098929474751152 (18/07/26 02:15:00)].",
+      "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-07-18T02:22:30.033+0000\",\"startDate\":\"2026-07-18T02:05:00.000+0000\",\"unit\":\"Percent\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[0.0,0.07246773255368073,0.01768660917878151,0.016571458739538986,0.11367420231302579,0.020781199758251507,0.013713576210041841,0.03453578163559238,0.0738473585806787,0.01727721824621161,0.023098929474751152,0.01658956054598093,0.030471160231779017,0.03188617030779521,0.07263570216794808],\"threshold\":49.5,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-07-18T02:19:00.000+0000\",\"sampleCount\":1.0,\"value\":0.07263570216794808},{\"timestamp\":\"2026-07-18T02:18:00.000+0000\",\"sampleCount\":2.0,\"value\":0.03188617030779521},{\"timestamp\":\"2026-07-18T02:17:00.000+0000\",\"sampleCount\":2.0,\"value\":0.030471160231779017},{\"timestamp\":\"2026-07-18T02:16:00.000+0000\",\"sampleCount\":2.0,\"value\":0.01658956054598093},{\"timestamp\":\"2026-07-18T02:15:00.000+0000\",\"sampleCount\":2.0,\"value\":0.023098929474751152},{\"timestamp\":\"2026-07-18T02:14:00.000+0000\",\"sampleCount\":2.0,\"value\":0.01727721824621161},{\"timestamp\":\"2026-07-18T02:13:00.000+0000\",\"sampleCount\":2.0,\"value\":0.0738473585806787},{\"timestamp\":\"2026-07-18T02:12:00.000+0000\",\"sampleCount\":2.0,\"value\":0.03453578163559238},{\"timestamp\":\"2026-07-18T02:11:00.000+0000\",\"sampleCount\":2.0,\"value\":0.013713576210041841},{\"timestamp\":\"2026-07-18T02:10:00.000+0000\",\"sampleCount\":1.0,\"value\":0.020781199758251507},{\"timestamp\":\"2026-07-18T02:09:00.000+0000\",\"sampleCount\":1.0,\"value\":0.11367420231302579},{\"timestamp\":\"2026-07-18T02:08:00.000+0000\",\"sampleCount\":1.0,\"value\":0.016571458739538986},{\"timestamp\":\"2026-07-18T02:07:00.000+0000\",\"sampleCount\":1.0,\"value\":0.01768660917878151},{\"timestamp\":\"2026-07-18T02:06:00.000+0000\",\"sampleCount\":1.0,\"value\":0.07246773255368073},{\"timestamp\":\"2026-07-18T02:05:00.000+0000\",\"sampleCount\":1.0,\"value\":0.0}]}",
+      "StateUpdatedTimestamp": "2026-07-18T11:22:30.037000+09:00",
+      "MetricName": "CPUUtilization",
+      "Namespace": "AWS/ECS",
+      "Statistic": "Average",
+      "Dimensions": [
+        {
+          "Name": "ClusterName",
+          "Value": "sca-ctf-prod-backend"
+        },
+        {
+          "Name": "ServiceName",
+          "Value": "backend"
+        }
+      ],
+      "Period": 60,
+      "Unit": "Percent",
+      "EvaluationPeriods": 15,
+      "Threshold": 49.5,
+      "ComparisonOperator": "LessThanThreshold",
+      "StateTransitionedTimestamp": "2026-07-18T11:22:30.037000+09:00"
+    }
+  ],
+  "CompositeAlarms": []
+}

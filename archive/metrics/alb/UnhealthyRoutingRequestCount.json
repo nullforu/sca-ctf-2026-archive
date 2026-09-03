@@ -1,0 +1,40 @@
+{
+  "Namespace": "AWS/ApplicationELB",
+  "MetricName": "UnhealthyRoutingRequestCount",
+  "Dimensions": [
+    {
+      "Name": "LoadBalancer",
+      "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+    }
+  ],
+  "Period": 900,
+  "Datapoints": [
+    {
+      "Timestamp": "2026-07-18 11:16:00+09:00",
+      "SampleCount": 13.0,
+      "Average": 1.0,
+      "Sum": 13.0,
+      "Minimum": 1.0,
+      "Maximum": 1.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 11:31:00+09:00",
+      "SampleCount": 2.0,
+      "Average": 1.0,
+      "Sum": 2.0,
+      "Minimum": 1.0,
+      "Maximum": 1.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-18 12:46:00+09:00",
+      "SampleCount": 1.0,
+      "Average": 1.0,
+      "Sum": 1.0,
+      "Minimum": 1.0,
+      "Maximum": 1.0,
+      "Unit": "Count"
+    }
+  ]
+}

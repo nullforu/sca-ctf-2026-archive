@@ -1,0 +1,34 @@
+{
+  "LoadBalancers": [
+    {
+      "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-northeast-2:769953010889:loadbalancer/app/sca-ctf-prod-backend-alb/5cc5599db982e18e",
+      "DNSName": "sca-ctf-prod-backend-alb-1620522934.ap-northeast-2.elb.amazonaws.com",
+      "CanonicalHostedZoneId": "ZWKZPGTI48KDX",
+      "CreatedTime": "2026-07-18T01:48:56.321000+00:00",
+      "LoadBalancerName": "sca-ctf-prod-backend-alb",
+      "Scheme": "internet-facing",
+      "VpcId": "vpc-0da260ec0375c1799",
+      "State": {
+        "Code": "active"
+      },
+      "Type": "application",
+      "AvailabilityZones": [
+        {
+          "ZoneName": "ap-northeast-2c",
+          "SubnetId": "subnet-01900e8e7fd74a62a",
+          "LoadBalancerAddresses": []
+        },
+        {
+          "ZoneName": "ap-northeast-2a",
+          "SubnetId": "subnet-07b49e206692d3bad",
+          "LoadBalancerAddresses": []
+        }
+      ],
+      "SecurityGroups": [
+        "sg-0d8185d9e87646fb9"
+      ],
+      "IpAddressType": "ipv4",
+      "EnablePrefixForIpv6SourceNat": "off"
+    }
+  ]
+}

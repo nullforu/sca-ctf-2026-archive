@@ -1,0 +1,44 @@
+{
+  "Namespace": "AWS/ApplicationELB",
+  "MetricName": "DesyncMitigationMode_NonCompliant_Request_Count",
+  "Dimensions": [
+    {
+      "Name": "AvailabilityZone",
+      "Value": "ap-northeast-2a"
+    },
+    {
+      "Name": "LoadBalancer",
+      "Value": "app/sca-ctf-prod-backend-alb/5cc5599db982e18e"
+    }
+  ],
+  "Period": 900,
+  "Datapoints": [
+    {
+      "Timestamp": "2026-07-18 13:46:00+09:00",
+      "SampleCount": 37.0,
+      "Average": 1.0,
+      "Sum": 37.0,
+      "Minimum": 1.0,
+      "Maximum": 1.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 00:31:00+09:00",
+      "SampleCount": 37.0,
+      "Average": 1.0,
+      "Sum": 37.0,
+      "Minimum": 1.0,
+      "Maximum": 1.0,
+      "Unit": "Count"
+    },
+    {
+      "Timestamp": "2026-07-19 07:46:00+09:00",
+      "SampleCount": 37.0,
+      "Average": 1.0,
+      "Sum": 37.0,
+      "Minimum": 1.0,
+      "Maximum": 1.0,
+      "Unit": "Count"
+    }
+  ]
+}

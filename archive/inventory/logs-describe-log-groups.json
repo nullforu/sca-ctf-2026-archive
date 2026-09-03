@@ -1,0 +1,40 @@
+{
+  "logGroups": [
+    {
+      "logGroupName": "/aws/ecs/containerinsights/sca-ctf-prod-backend/performance",
+      "creationTime": 1784254171162,
+      "retentionInDays": 1,
+      "metricFilterCount": 0,
+      "arn": "arn:aws:logs:ap-northeast-2:769953010889:log-group:/aws/ecs/containerinsights/sca-ctf-prod-backend/performance:*",
+      "storedBytes": 4055645,
+      "logGroupClass": "STANDARD",
+      "logGroupArn": "arn:aws:logs:ap-northeast-2:769953010889:log-group:/aws/ecs/containerinsights/sca-ctf-prod-backend/performance",
+      "deletionProtectionEnabled": false,
+      "bearerTokenAuthenticationEnabled": false
+    },
+    {
+      "logGroupName": "/aws/ecs/sca-ctf-prod/backend",
+      "creationTime": 1784339318851,
+      "retentionInDays": 14,
+      "metricFilterCount": 0,
+      "arn": "arn:aws:logs:ap-northeast-2:769953010889:log-group:/aws/ecs/sca-ctf-prod/backend:*",
+      "storedBytes": 6381560,
+      "logGroupClass": "STANDARD",
+      "logGroupArn": "arn:aws:logs:ap-northeast-2:769953010889:log-group:/aws/ecs/sca-ctf-prod/backend",
+      "deletionProtectionEnabled": false,
+      "bearerTokenAuthenticationEnabled": false
+    },
+    {
+      "logGroupName": "/aws/ecs/sca-ctf-prod/invite-bot",
+      "creationTime": 1784339318850,
+      "retentionInDays": 14,
+      "metricFilterCount": 0,
+      "arn": "arn:aws:logs:ap-northeast-2:769953010889:log-group:/aws/ecs/sca-ctf-prod/invite-bot:*",
+      "storedBytes": 1027,
+      "logGroupClass": "STANDARD",
+      "logGroupArn": "arn:aws:logs:ap-northeast-2:769953010889:log-group:/aws/ecs/sca-ctf-prod/invite-bot",
+      "deletionProtectionEnabled": false,
+      "bearerTokenAuthenticationEnabled": false
+    }
+  ]
+}

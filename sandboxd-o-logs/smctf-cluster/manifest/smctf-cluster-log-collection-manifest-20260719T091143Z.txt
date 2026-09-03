@@ -1,0 +1,34 @@
+smctf-cluster log collection manifest
+collected_at_utc=20260719T091143Z
+bucket=s3://sca-ctf-sandboxd-o-logs-20260719-769953010889
+
+Collected running instances:
+- orch: i-0325180209aa56549 / ip-10-0-1-253 / 3.***.***.42 / sca-ctf
+- worker: i-05960d374e7e743c9 / ip-10-0-2-194 / 3.***.***.133 / default / xw-default-1
+- worker: i-050749b282c0088b8 / ip-10-0-30-2 / 43.***.***.68 / default / xw-default-2
+
+Included per-instance data:
+- journalctl all, boot, sbxorch, sbxlet, containerd, docker, cloud-init, amazon-ssm-agent
+- /var/log archive
+- /etc/containerd, /etc/systemd/system, /etc/sandboxd when present
+- /opt/sandboxd-o, /var/lib/sandboxd, /var/lib/sandboxd-o when present
+- /var/log/pods, /var/log/containers when present
+- system snapshots: ps, ss, ip addr/route, df, free, lsblk, systemctl, ctr lists
+
+Control-plane state snapshot included:
+- sbxctl get node/external/sandbox
+- EC2 describe-instances for cluster/xw instances
+- ECR repository listing
+
+Previously terminated before this collection, instance-local logs not retrievable now:
+- smctf-worker-1 / i-0498eb83dc2fca0b5
+- smctf-worker-2 / i-0d7afdfc911ae31fa
+- smctf-worker-3 / i-09d47d2a9eca96bea
+- xw-smc12-1 / i-010e2552114c6cc78
+- xw-smc17-1 / i-0eb87201f910cbd64
+
+S3 objects:
+2026-07-19 18:09:10   93.3 MiB smctf-cluster/20260719T090856Z/ip-10-0-2-194-i-05960d374e7e743c9.tar.gz
+2026-07-19 18:09:11   98.9 MiB smctf-cluster/20260719T090856Z/ip-10-0-30-2-i-050749b282c0088b8.tar.gz
+2026-07-19 18:11:15   80.7 MiB smctf-cluster/20260719T091102Z/ip-10-0-1-253-i-0325180209aa56549.tar.gz
+2026-07-19 18:09:37    6.1 KiB smctf-cluster/control-plane-state/smctf-cluster-control-plane-state-20260719T090933Z.tar.gz
